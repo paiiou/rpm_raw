@@ -1,0 +1,12 @@
+Ce dépôt contient le matériel nécessaire à la construction des paquetages rpm de LXQt-0.11.0, pour Mageia.
+Les fichiers .spec peuvent également être utilisés pour les constructions à partir des archives xxx.zip.
+Il faudra remplacer les archives xxx.tar.xz par les archives xxx.zip qu'il faudra télécharger au préalable
+depuis https://github.com/lxde.
+
+Les paquetages rpm obtenus ont la particularité de ne nécessiter aucun apport de GTK.
+Le bureau LXQt comprend la traduction française :
+- les fichiers .desktop sont intégrés à ce dépôt
+- les fichiers .ts sont automatiquement récupérés sur le dépôt de LXQt
+
+
+CE DÉPÔT EST ENCORE INCOMPLET
