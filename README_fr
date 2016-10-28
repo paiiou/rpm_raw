@@ -6,7 +6,21 @@ depuis https://github.com/lxde.
 Les paquetages rpm obtenus ont la particularité de ne nécessiter aucun apport de GTK.
 Le bureau LXQt comprend la traduction française :
 - les fichiers .desktop sont intégrés à ce dépôt
-- les fichiers .ts sont automatiquement récupérés sur le dépôt de LXQt
+- les fichiers .ts sont automatiquement récupérés sur le dépôt de LXQt-l10n
 
+Remarque relative à la compilation/construction des paquetages :
+Afin de satisfaire les différentes dépendances, la compilation/construction doit se faire dans un ordre donné,
+en intégrant à chque étape fois les nouveaux paquetages dans le miroir utilisé
+
+I les librairies de base : libqtxdg, libsysstat
+
+II la librairie de LXQt : liblxqt
+
+III les composants : lxqt-about, lxqt-admin, lxqt-config, lxqt-globalkeys, lxqt-notificationd, lxqt-openssh-askpass
+lxqt-powermanagement, lxqt-qtplugin, lxqt-session, lxqt-sudo, pavucontrol-qt, (suite ... prochainement)
+
+IV un autre composant, nécessitant lxqt-globalkeys : lxqt-policykit
+
+V la suite ... prochainement
 
 CE DÉPÔT EST ENCORE INCOMPLET
